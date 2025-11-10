@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 // A DelayExecutor delays a tasks on given delay interval.

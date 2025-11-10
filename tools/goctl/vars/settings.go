@@ -4,7 +4,7 @@ const (
 	// ProjectName the const value of zero
 	ProjectName = "zero"
 	// ProjectOpenSourceURL the github url of go-zero
-	ProjectOpenSourceURL = "go-kit"
+	ProjectOpenSourceURL = "github.com/quincy0/go-kit"
 	// OsWindows represents os windows
 	OsWindows = "windows"
 	// OsMac represents os mac

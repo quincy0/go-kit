@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/fs"
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/fs"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 const (

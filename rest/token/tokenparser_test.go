@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/timex"
 	"github.com/stretchr/testify/assert"
 )
 

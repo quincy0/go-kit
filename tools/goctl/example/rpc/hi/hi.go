@@ -4,15 +4,15 @@ import (
 	"flag"
 	"fmt"
 
-	"go-kit/tools/goctl/example/rpc/hi/internal/config"
-	eventServer "go-kit/tools/goctl/example/rpc/hi/internal/server/event"
-	greetServer "go-kit/tools/goctl/example/rpc/hi/internal/server/greet"
-	"go-kit/tools/goctl/example/rpc/hi/internal/svc"
-	"go-kit/tools/goctl/example/rpc/hi/pb/hi"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/config"
+	eventServer "github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/server/event"
+	greetServer "github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/server/greet"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/svc"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/pb/hi"
 
-	"go-kit/core/conf"
-	"go-kit/core/service"
-	"go-kit/zrpc"
+	"github.com/quincy0/go-kit/core/conf"
+	"github.com/quincy0/go-kit/core/service"
+	"github.com/quincy0/go-kit/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

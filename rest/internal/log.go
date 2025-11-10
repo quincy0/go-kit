@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"sync"
 
-	"go-kit/core/logx"
-	"go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/httpx"
 )
 
 // LogContext is a context key.

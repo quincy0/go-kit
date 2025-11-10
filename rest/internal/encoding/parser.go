@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/textproto"
 
-	"go-kit/core/mapping"
+	"github.com/quincy0/go-kit/core/mapping"
 )
 
 const headerKey = "header"

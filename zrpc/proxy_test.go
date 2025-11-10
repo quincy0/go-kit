@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/quincy0/go-kit/zrpc/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"go-kit/zrpc/internal/mock"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"

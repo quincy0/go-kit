@@ -54,7 +54,7 @@ import (
     "fmt"
     "log"
 
-    "go-kit/core/mr"
+    "github.com/quincy0/go-kit/core/mr"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/mathx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/mathx"
 )
 
 func TestSubset(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/rpc/generator"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/generator"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

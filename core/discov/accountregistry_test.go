@@ -3,9 +3,9 @@ package discov
 import (
 	"testing"
 
+	"github.com/quincy0/go-kit/core/discov/internal"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov/internal"
-	"go-kit/core/stringx"
 )
 
 func TestRegisterAccount(t *testing.T) {

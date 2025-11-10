@@ -2,12 +2,13 @@ package httpc
 
 import (
 	"encoding/json"
-	"go-kit/rest/router"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/quincy0/go-kit/rest/router"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestPost(t *testing.T) {

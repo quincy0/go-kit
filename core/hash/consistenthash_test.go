@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/mathx"
 	"github.com/stretchr/testify/assert"
 )
 

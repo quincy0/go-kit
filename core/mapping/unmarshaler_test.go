@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stringx"
 )
 
 // because json.Number doesn't support strconv.ParseUint(...),

@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"go-kit/tools/goctl/api/parser/g4/ast"
-	"go-kit/tools/goctl/api/parser/g4/gen/api"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/ast"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/gen/api"
 	"github.com/stretchr/testify/assert"
 )
 

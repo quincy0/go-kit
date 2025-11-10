@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"go-kit/tools/goctl/internal/version"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
 	"github.com/spf13/cobra"
 )
 
@@ -33,7 +33,7 @@ func runE(_ *cobra.Command, _ []string) error {
 	env := getEnv()
 	content := fmt.Sprintf(issueTemplate, version.BuildVersion, env.string())
 	content = url.QueryEscape(content)
-	url := fmt.Sprintf("https://go-kit/issues/new?body=%s", content)
+	url := fmt.Sprintf("https://github.com/quincy0/go-kit/issues/new?body=%s", content)
 
 	goos := runtime.GOOS
 	var cmd string

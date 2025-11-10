@@ -3,18 +3,18 @@ package template
 import (
 	"fmt"
 
-	"go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util"
 )
 
 // ModelCustom defines a template for extension
 const ModelCustom = `package {{.pkg}}
 {{if .withCache}}
 import (
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
 )
 {{else}}
-import "go-kit/core/stores/sqlx"
+import "github.com/quincy0/go-kit/core/stores/sqlx"
 {{end}}
 var _ {{.upperStartCamelObject}}Model = (*custom{{.upperStartCamelObject}}Model)(nil)
 

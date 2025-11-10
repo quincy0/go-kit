@@ -1,8 +1,8 @@
 package threading
 
 import (
-	"go-kit/core/lang"
-	"go-kit/core/rescue"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/rescue"
 )
 
 // A TaskRunner is used to control the concurrency of goroutines.

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/core/codec"
-	"go-kit/core/iox"
-	"go-kit/core/logx"
-	"go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/iox"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/httpx"
 )
 
 const (

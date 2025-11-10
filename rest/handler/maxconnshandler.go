@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"go-kit/core/logx"
-	"go-kit/core/syncx"
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/rest/internal"
 )
 
 // MaxConns returns a middleware that limit the concurrent connections.

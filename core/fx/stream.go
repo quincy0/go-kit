@@ -4,9 +4,9 @@ import (
 	"sort"
 	"sync"
 
-	"go-kit/core/collection"
-	"go-kit/core/lang"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 const (

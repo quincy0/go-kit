@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"sync"
 
-	"go-kit/core/lang"
-	"go-kit/core/mapping"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/mapping"
 )
 
 const (

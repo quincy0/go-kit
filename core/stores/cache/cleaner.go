@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"go-kit/core/collection"
-	"go-kit/core/logx"
-	"go-kit/core/proc"
-	"go-kit/core/stat"
-	"go-kit/core/stringx"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 const (

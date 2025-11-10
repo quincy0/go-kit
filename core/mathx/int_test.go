@@ -3,7 +3,7 @@ package mathx
 import (
 	"testing"
 
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
 )
 

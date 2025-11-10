@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 
-	"go-kit/tools/goctl/internal/version"
-	sortedmap "go-kit/tools/goctl/pkg/collection"
-	"go-kit/tools/goctl/pkg/protoc"
-	"go-kit/tools/goctl/pkg/protocgengo"
-	"go-kit/tools/goctl/pkg/protocgengogrpc"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
+	sortedmap "github.com/quincy0/go-kit/tools/goctl/pkg/collection"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protoc"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protocgengo"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protocgengogrpc"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 var goctlEnv *sortedmap.SortedMap

@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 
-	"go-kit/tools/goctl/pkg/downloader"
-	"go-kit/tools/goctl/pkg/goctl"
-	"go-kit/tools/goctl/rpc/execx"
-	"go-kit/tools/goctl/util/env"
-	"go-kit/tools/goctl/util/zipx"
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/downloader"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/goctl"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/util/env"
+	"github.com/quincy0/go-kit/tools/goctl/util/zipx"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 var url = map[string]string{

@@ -1,4 +1,4 @@
-module go-kit/tools/goctl
+module github.com/quincy0/go-kit/tools/goctl
 
 go 1.16
 
@@ -7,7 +7,7 @@ require (
 	github.com/fatih/structtag v1.2.0
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/go-github/v47 v47.1.0
-	go-kit v1.11.16
+	github.com/quincy0/go-kit v1.11.16
 	github.com/iancoleman/strcase v0.2.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/spf13/cobra v1.4.0
@@ -21,6 +21,6 @@ require (
 )
 
 replace (
-	go-kit => ../..
-	go-kit/tools/goctl => ../../tools/goctl
+	github.com/quincy0/go-kit => ../..
+	github.com/quincy0/go-kit/tools/goctl => ../../tools/goctl
 )

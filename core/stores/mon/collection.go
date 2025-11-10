@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-kit/core/breaker"
-	"go-kit/core/logx"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/breaker"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/timex"
 	"go.mongodb.org/mongo-driver/mongo"
 	mopt "go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/session"

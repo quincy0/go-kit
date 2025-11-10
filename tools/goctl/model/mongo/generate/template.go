@@ -3,8 +3,8 @@ package generate
 import (
 	"fmt"
 
-	"go-kit/tools/goctl/model/mongo/template"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/model/mongo/template"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const (

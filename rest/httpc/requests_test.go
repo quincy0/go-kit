@@ -7,10 +7,10 @@ import (
 	"net/http/httptrace"
 	"testing"
 
-	ztrace "go-kit/core/trace"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal/header"
-	"go-kit/rest/router"
+	ztrace "github.com/quincy0/go-kit/core/trace"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal/header"
+	"github.com/quincy0/go-kit/rest/router"
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel/trace"
 )

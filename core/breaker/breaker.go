@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/mathx"
-	"go-kit/core/proc"
-	"go-kit/core/stat"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 const (

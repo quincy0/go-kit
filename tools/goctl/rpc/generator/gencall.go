@@ -8,13 +8,13 @@ import (
 	"strings"
 
 	"github.com/emicklei/proto"
-	"go-kit/core/collection"
-	conf "go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/rpc/parser"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/format"
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/core/collection"
+	conf "github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 const (

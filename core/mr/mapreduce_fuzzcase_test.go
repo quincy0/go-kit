@@ -13,9 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/threading"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/cheggaaa/pb.v1"
 )
 
 // If Fuzz stuck, we don't know why, because it only returns hung or unexpected,

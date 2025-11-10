@@ -1,6 +1,6 @@
 package stringx
 
-import "go-kit/core/lang"
+import "github.com/quincy0/go-kit/core/lang"
 
 const defaultMask = '*'
 

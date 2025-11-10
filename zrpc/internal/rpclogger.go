@@ -3,7 +3,7 @@ package internal
 import (
 	"sync"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 	"google.golang.org/grpc/grpclog"
 )
 

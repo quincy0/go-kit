@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	conf "go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/rpc/parser"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/format"
-	"go-kit/tools/goctl/util/pathx"
+	conf "github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 //go:embed svc.tpl

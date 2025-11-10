@@ -27,8 +27,8 @@ $ goctl model mongo -t User -c --dir .
 package model
 
 import (
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/monc"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/monc"
 )
 
 var _ UserModel = (*customUserModel)(nil)
@@ -64,7 +64,7 @@ import (
 	"context"
 	"time"
 
-	"go-kit/core/stores/monc"
+	"github.com/quincy0/go-kit/core/stores/monc"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
@@ -162,7 +162,7 @@ package model
 import (
 	"errors"
 
-	"go-kit/core/stores/mon"
+	"github.com/quincy0/go-kit/core/stores/mon"
 )
 
 var (
@@ -196,8 +196,8 @@ Flags:
   -h, --help            help for mongo
       --home string     The goctl home path of the template, --home and --remote cannot be set at the same time, if they are, --remote has higher priority
       --remote string   The remote git repo of the template, --home and --remote cannot be set at the same time, if they are, --remote has higher priority
-                                The git repo directory must be consistent with the https://go-kit-template directory structure
-      --style string    The file naming format, see [https://go-kit/tree/master/tools/goctl/config/readme.md]
+                                The git repo directory must be consistent with the https://github.com/quincy0/go-kit-template directory structure
+      --style string    The file naming format, see [https://github.com/quincy0/go-kit/tree/master/tools/goctl/config/readme.md]
   -t, --type strings    Specified model type name
 
 ```

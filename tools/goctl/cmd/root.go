@@ -3,26 +3,27 @@ package cmd
 import (
 	_ "embed"
 	"fmt"
-	"go-kit/tools/goctl/doc"
-	"go-kit/tools/goctl/internationalization"
 	"os"
 	"runtime"
 	"strings"
 	"text/template"
 
-	"go-kit/tools/goctl/api"
-	"go-kit/tools/goctl/bug"
-	"go-kit/tools/goctl/docker"
-	"go-kit/tools/goctl/env"
-	"go-kit/tools/goctl/internal/version"
-	"go-kit/tools/goctl/kube"
-	"go-kit/tools/goctl/migrate"
-	"go-kit/tools/goctl/model"
-	"go-kit/tools/goctl/quickstart"
-	"go-kit/tools/goctl/rpc"
-	"go-kit/tools/goctl/tpl"
-	"go-kit/tools/goctl/upgrade"
+	"github.com/quincy0/go-kit/tools/goctl/doc"
+	"github.com/quincy0/go-kit/tools/goctl/internationalization"
+
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/api"
+	"github.com/quincy0/go-kit/tools/goctl/bug"
+	"github.com/quincy0/go-kit/tools/goctl/docker"
+	"github.com/quincy0/go-kit/tools/goctl/env"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
+	"github.com/quincy0/go-kit/tools/goctl/kube"
+	"github.com/quincy0/go-kit/tools/goctl/migrate"
+	"github.com/quincy0/go-kit/tools/goctl/model"
+	"github.com/quincy0/go-kit/tools/goctl/quickstart"
+	"github.com/quincy0/go-kit/tools/goctl/rpc"
+	"github.com/quincy0/go-kit/tools/goctl/tpl"
+	"github.com/quincy0/go-kit/tools/goctl/upgrade"
 	"github.com/spf13/cobra"
 	"github.com/withfig/autocomplete-tools/integrations/cobra"
 )
@@ -42,7 +43,7 @@ var (
 		Use:   "goctl",
 		Short: "A cli tool to generate go-zero code",
 		Long: "A cli tool to generate api, zrpc, model code\n\n" +
-			"GitHub: https://go-kit\n" +
+			"GitHub: https://github.com/quincy0/go-kit\n" +
 			"Site:   https://go-zero.dev",
 	}
 )

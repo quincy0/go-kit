@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/conf"
-	"go-kit/core/logx"
-	"go-kit/rest/chain"
-	"go-kit/rest/httpx"
-	"go-kit/rest/router"
+	"github.com/quincy0/go-kit/core/conf"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/chain"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/router"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/breaker"
+	"github.com/quincy0/go-kit/core/stat"
+	rcodes "github.com/quincy0/go-kit/zrpc/internal/codes"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/breaker"
-	"go-kit/core/stat"
-	rcodes "go-kit/zrpc/internal/codes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

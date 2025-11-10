@@ -3,7 +3,7 @@ package prof
 import (
 	"testing"
 
-	"go-kit/core/utils"
+	"github.com/quincy0/go-kit/core/utils"
 )
 
 func TestProfiler(t *testing.T) {

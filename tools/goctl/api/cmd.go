@@ -1,17 +1,17 @@
 package api
 
 import (
-	"go-kit/tools/goctl/api/apigen"
-	"go-kit/tools/goctl/api/dartgen"
-	"go-kit/tools/goctl/api/docgen"
-	"go-kit/tools/goctl/api/format"
-	"go-kit/tools/goctl/api/gogen"
-	"go-kit/tools/goctl/api/javagen"
-	"go-kit/tools/goctl/api/ktgen"
-	"go-kit/tools/goctl/api/new"
-	"go-kit/tools/goctl/api/tsgen"
-	"go-kit/tools/goctl/api/validate"
-	"go-kit/tools/goctl/plugin"
+	"github.com/quincy0/go-kit/tools/goctl/api/apigen"
+	"github.com/quincy0/go-kit/tools/goctl/api/dartgen"
+	"github.com/quincy0/go-kit/tools/goctl/api/docgen"
+	"github.com/quincy0/go-kit/tools/goctl/api/format"
+	"github.com/quincy0/go-kit/tools/goctl/api/gogen"
+	"github.com/quincy0/go-kit/tools/goctl/api/javagen"
+	"github.com/quincy0/go-kit/tools/goctl/api/ktgen"
+	"github.com/quincy0/go-kit/tools/goctl/api/new"
+	"github.com/quincy0/go-kit/tools/goctl/api/tsgen"
+	"github.com/quincy0/go-kit/tools/goctl/api/validate"
+	"github.com/quincy0/go-kit/tools/goctl/plugin"
 	"github.com/spf13/cobra"
 )
 
@@ -96,7 +96,7 @@ func init() {
 	Cmd.Flags().StringVar(&apigen.VarStringRemote, "remote", "", "The remote git repo of the"+
 		" template, --home and --remote cannot be set at the same time, if they are, --remote has higher"+
 		" priority\nThe git repo directory must be consistent with the"+
-		" https://go-kit-template directory structure")
+		" https://github.com/quincy0/go-kit-template directory structure")
 	Cmd.Flags().StringVar(&apigen.VarStringBranch, "branch", "", "The branch of the "+
 		"remote repo, it does work with --remote")
 
@@ -123,11 +123,11 @@ func init() {
 	goCmd.Flags().StringVar(&gogen.VarStringRemote, "remote", "", "The remote git repo "+
 		"of the template, --home and --remote cannot be set at the same time, if they are, --remote"+
 		" has higher priority\nThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	goCmd.Flags().StringVar(&gogen.VarStringBranch, "branch", "", "The branch of "+
 		"the remote repo, it does work with --remote")
 	goCmd.Flags().StringVar(&gogen.VarStringStyle, "style", "gozero", "The file naming format,"+
-		" see [https://go-kit/blob/master/tools/goctl/config/readme.md]")
+		" see [https://github.com/quincy0/go-kit/blob/master/tools/goctl/config/readme.md]")
 
 	javaCmd.Flags().StringVar(&javagen.VarStringDir, "dir", "", "The target dir")
 	javaCmd.Flags().StringVar(&javagen.VarStringAPI, "api", "", "The api file")
@@ -142,17 +142,17 @@ func init() {
 	newCmd.Flags().StringVar(&new.VarStringRemote, "remote", "", "The remote git repo "+
 		"of the template, --home and --remote cannot be set at the same time, if they are, --remote"+
 		" has higher priority\n\tThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	newCmd.Flags().StringVar(&new.VarStringBranch, "branch", "", "The branch of "+
 		"the remote repo, it does work with --remote")
 	newCmd.Flags().StringVar(&new.VarStringStyle, "style", "gozero", "The file naming format,"+
-		" see [https://go-kit/blob/master/tools/goctl/config/readme.md]")
+		" see [https://github.com/quincy0/go-kit/blob/master/tools/goctl/config/readme.md]")
 
 	pluginCmd.Flags().StringVarP(&plugin.VarStringPlugin, "plugin", "p", "", "The plugin file")
 	pluginCmd.Flags().StringVar(&plugin.VarStringDir, "dir", "", "The target dir")
 	pluginCmd.Flags().StringVar(&plugin.VarStringAPI, "api", "", "The api file")
 	pluginCmd.Flags().StringVar(&plugin.VarStringStyle, "style", "",
-		"The file naming format, see [https://go-kit/tree/master/tools/goctl/config/readme.md]")
+		"The file naming format, see [https://github.com/quincy0/go-kit/tree/master/tools/goctl/config/readme.md]")
 
 	tsCmd.Flags().StringVar(&tsgen.VarStringDir, "dir", "", "The target dir")
 	tsCmd.Flags().StringVar(&tsgen.VarStringAPI, "api", "", "The api file")

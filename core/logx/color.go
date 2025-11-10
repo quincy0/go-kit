@@ -3,7 +3,7 @@ package logx
 import (
 	"sync/atomic"
 
-	"go-kit/core/color"
+	"github.com/quincy0/go-kit/core/color"
 )
 
 // WithColor is a helper function to add color to a string, only in plain encoding.

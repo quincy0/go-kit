@@ -11,7 +11,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go-kit/core/color"
+	"github.com/quincy0/go-kit/core/color"
 )
 
 type (

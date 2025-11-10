@@ -34,22 +34,22 @@ var (
 		{
 			IsDir: true,
 			Path:  "api/sample_file/remote",
-			Cmd:   "goctl api --o sample.api --remote https://go-kit-template --branch main",
+			Cmd:   "goctl api --o sample.api --remote https://github.com/quincy0/go-kit-template --branch main",
 		},
 		{
 			IsDir: true,
 			Path:  "api/sample_file/remote/shorthand",
-			Cmd:   "goctl api -o sample.api -remote https://go-kit-template -branch main",
+			Cmd:   "goctl api -o sample.api -remote https://github.com/quincy0/go-kit-template -branch main",
 		},
 		{
 			IsDir: true,
 			Path:  "api/sample_file/remote/assign",
-			Cmd:   "goctl api --o=sample.api --remote https://go-kit-template --branch=main",
+			Cmd:   "goctl api --o=sample.api --remote https://github.com/quincy0/go-kit-template --branch=main",
 		},
 		{
 			IsDir: true,
 			Path:  "api/sample_file/remote/assign/shorthand",
-			Cmd:   "goctl api -o=sample.api -remote https://go-kit-template -branch=main",
+			Cmd:   "goctl api -o=sample.api -remote https://github.com/quincy0/go-kit-template -branch=main",
 		},
 		{
 			IsDir: true,

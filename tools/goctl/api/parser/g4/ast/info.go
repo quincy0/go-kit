@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"go-kit/tools/goctl/api/parser/g4/gen/api"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/gen/api"
 )
 
 // InfoExpr defines info syntax for api

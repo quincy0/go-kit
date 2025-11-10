@@ -1,6 +1,6 @@
 package discov
 
-import "go-kit/core/discov/internal"
+import "github.com/quincy0/go-kit/core/discov/internal"
 
 // RegisterAccount registers the username/password to the given etcd cluster.
 func RegisterAccount(endpoints []string, user, pass string) {

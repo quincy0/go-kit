@@ -1,7 +1,7 @@
 package trace
 
 // TraceName represents the tracing name.
-const TraceName = "go-kit"
+const TraceName = "github.com/quincy0/go-kit"
 
 // A Config is an opentelemetry config.
 type Config struct {

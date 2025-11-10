@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/conf"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/conf"
+	"github.com/quincy0/go-kit/core/logx"
 	"github.com/stretchr/testify/assert"
 )
 

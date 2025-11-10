@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/discov/internal"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov/internal"
 )
 
 var mockLock sync.Mutex

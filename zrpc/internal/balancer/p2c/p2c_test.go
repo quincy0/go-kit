@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"go-kit/core/logx"
-	"go-kit/core/mathx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

@@ -3,8 +3,8 @@ package gateway
 import (
 	"time"
 
-	"go-kit/rest"
-	"go-kit/zrpc"
+	"github.com/quincy0/go-kit/rest"
+	"github.com/quincy0/go-kit/zrpc"
 )
 
 type (

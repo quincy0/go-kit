@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 )
 
 var client = http.Client{

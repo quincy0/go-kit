@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 var (

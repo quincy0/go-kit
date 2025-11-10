@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/tools/goctl/pkg/env"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/env"
 )
 
 var errorFormat = `goctl error: %+v

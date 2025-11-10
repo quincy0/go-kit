@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/executors"
-	"go-kit/core/logx"
-	"go-kit/core/proc"
-	"go-kit/core/sysx"
+	"github.com/quincy0/go-kit/core/executors"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/sysx"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/redis/redistest"
-	mocksql "go-kit/tools/goctl/model/sql/test"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
+	mocksql "github.com/quincy0/go-kit/tools/goctl/model/sql/test"
 	"github.com/stretchr/testify/assert"
 )
 

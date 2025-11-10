@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-kit/core/logx"
-	"go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/proc"
 )
 
 // StartOption defines the method to customize http.Server.

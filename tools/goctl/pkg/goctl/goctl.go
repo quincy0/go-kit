@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 func Install(cacheDir, name string, installFn func(dest string) (string, error)) (string, error) {

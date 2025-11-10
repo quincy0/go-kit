@@ -3,8 +3,8 @@ package collection
 import (
 	"testing"
 
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stringx"
 )
 
 func TestSafeMap(t *testing.T) {

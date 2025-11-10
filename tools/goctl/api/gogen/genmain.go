@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/util/format"
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 //go:embed main.tpl

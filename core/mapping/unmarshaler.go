@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/jsonx"
-	"go-kit/core/lang"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/jsonx"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 const (

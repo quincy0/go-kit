@@ -9,13 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alicebob/miniredis/v2"
-	"go-kit/core/logx"
-	"go-kit/core/mathx"
-	"go-kit/core/stat"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/redis/redistest"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
+	"github.com/quincy0/go-kit/core/syncx"
 	"github.com/stretchr/testify/assert"
 )
 

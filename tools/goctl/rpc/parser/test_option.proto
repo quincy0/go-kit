@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package stream;
 
-option go_package = "go-kit";
+option go_package = "github.com/quincy0/go-kit";
 
 message placeholder {}
 

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-kit/tools/goctl/internal/version"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
 	"github.com/stretchr/testify/assert"
 )
 

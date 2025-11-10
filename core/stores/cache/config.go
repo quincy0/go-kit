@@ -1,6 +1,6 @@
 package cache
 
-import "go-kit/core/stores/redis"
+import "github.com/quincy0/go-kit/core/stores/redis"
 
 type (
 	// A ClusterConf is the config of a redis cluster that used as cache.

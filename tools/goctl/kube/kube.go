@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"text/template"
 
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

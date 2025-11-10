@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/stat/internal"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat/internal"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/tools/goctl/pkg/goctl"
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/rpc/execx"
-	"go-kit/tools/goctl/util/env"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/goctl"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/util/env"
 )
 
 const (

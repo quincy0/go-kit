@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stores/redis"
 	xrate "golang.org/x/time/rate"
 )
 

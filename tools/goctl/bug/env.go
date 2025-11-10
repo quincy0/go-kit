@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"go-kit/tools/goctl/internal/version"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
 )
 
 type env map[string]string

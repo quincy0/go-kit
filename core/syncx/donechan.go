@@ -3,7 +3,7 @@ package syncx
 import (
 	"sync"
 
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 // A DoneChan is used as a channel that can be closed multiple times and wait for done.

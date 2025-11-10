@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/tools/goctl/pkg/env"
-	"go-kit/tools/goctl/pkg/protoc"
-	"go-kit/tools/goctl/pkg/protocgengo"
-	"go-kit/tools/goctl/pkg/protocgengogrpc"
-	"go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/env"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protoc"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protocgengo"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/protocgengogrpc"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 	"github.com/spf13/cobra"
 )
 

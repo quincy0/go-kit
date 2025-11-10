@@ -6,9 +6,9 @@ package client
 import (
 	"context"
 
-	"go-kit/tools/goctl/example/rpc/hi/pb/hi"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/pb/hi"
 
-	"go-kit/zrpc"
+	"github.com/quincy0/go-kit/zrpc"
 	"google.golang.org/grpc"
 )
 

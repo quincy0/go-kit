@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"go-kit/core/logx"
-	"go-kit/core/service"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/service"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const protoName = "greet.proto"

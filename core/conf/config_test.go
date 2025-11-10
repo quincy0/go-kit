@@ -2,13 +2,14 @@ package conf
 
 import (
 	"fmt"
-	"go-kit/rest"
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"go-kit/core/fs"
-	"go-kit/core/hash"
+	"github.com/quincy0/go-kit/rest"
+
+	"github.com/quincy0/go-kit/core/fs"
+	"github.com/quincy0/go-kit/core/hash"
 	"github.com/stretchr/testify/assert"
 )
 

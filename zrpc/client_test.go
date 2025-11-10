@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/discov"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/zrpc/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov"
-	"go-kit/core/logx"
-	"go-kit/zrpc/internal/mock"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"

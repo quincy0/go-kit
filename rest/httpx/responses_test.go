@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

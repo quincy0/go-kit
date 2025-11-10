@@ -43,7 +43,7 @@ func TestPrettyCaller(t *testing.T) {
 		},
 		{
 			name: "long path",
-			file: "go-kit/core/logx/util_test.go",
+			file: "github.com/quincy0/go-kit/core/logx/util_test.go",
 			line: 12,
 			want: "logx/util_test.go:12",
 		},

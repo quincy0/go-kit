@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/codec"
-	"go-kit/core/fs"
-	"go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/fs"
+	"github.com/quincy0/go-kit/rest/httpx"
 	"github.com/stretchr/testify/assert"
 )
 

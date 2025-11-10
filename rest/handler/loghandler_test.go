@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/rest/internal"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"go-kit/core/discov"
-	"go-kit/core/netx"
+	"github.com/quincy0/go-kit/core/discov"
+	"github.com/quincy0/go-kit/core/netx"
 )
 
 const (

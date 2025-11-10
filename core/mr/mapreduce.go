@@ -6,8 +6,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go-kit/core/errorx"
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/errorx"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 const (

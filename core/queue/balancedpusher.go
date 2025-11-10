@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 // ErrNoAvailablePusher indicates no pusher available.

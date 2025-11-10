@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-kit/core/collection"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/stores/redis"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"

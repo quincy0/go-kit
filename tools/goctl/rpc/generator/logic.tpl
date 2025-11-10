@@ -5,7 +5,7 @@ import (
 
 	{{.imports}}
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 type {{.logicName}} struct {

@@ -1,6 +1,6 @@
 package fx
 
-import "go-kit/core/threading"
+import "github.com/quincy0/go-kit/core/threading"
 
 // Parallel runs fns parallelly and waits for done.
 func Parallel(fns ...func()) {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 	"github.com/stretchr/testify/assert"
 )
 

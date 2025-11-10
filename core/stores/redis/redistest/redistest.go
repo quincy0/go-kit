@@ -3,9 +3,8 @@ package redistest
 import (
 	"time"
 
-	"github.com/alicebob/miniredis/v2"
-	"go-kit/core/lang"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/stores/redis"
 )
 
 // CreateRedis returns an in process redis.Redis.

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/timex"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/timex"
 )
 
 func TestLessExecutor_DoOrDiscard(t *testing.T) {

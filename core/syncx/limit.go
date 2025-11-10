@@ -3,7 +3,7 @@ package syncx
 import (
 	"errors"
 
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 // ErrLimitReturn indicates that the more than borrowed elements were returned.

@@ -3,7 +3,7 @@ package stringx
 import (
 	"errors"
 
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 var (

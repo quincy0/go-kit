@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"go-kit/core/iox"
+	"github.com/quincy0/go-kit/core/iox"
 )
 
 // PropertyError represents a configuration error message.

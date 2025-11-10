@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stores/redis/redistest"
 	"google.golang.org/grpc/metadata"
 )
 

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/api/parser"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

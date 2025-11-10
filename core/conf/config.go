@@ -12,8 +12,8 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/core/mapping"
-	"go-kit/rest/httpc"
+	"github.com/quincy0/go-kit/core/mapping"
+	"github.com/quincy0/go-kit/rest/httpc"
 )
 
 var loaders = map[string]func([]byte, interface{}) error{
@@ -117,7 +117,7 @@ func LoadFromConfigService(clusterName string, serviceName string, v interface{}
 	if projectId == "gexhub" {
 		url = fmt.Sprintf("https://xconf-223026273590.northamerica-northeast1.run.app/config/%s/%s/%s", clusterName, env, serviceName)
 	}
-	
+
 	ret, err := httpc.Do(context.Background(), http.MethodGet, url, nil)
 	if err != nil {
 		return err

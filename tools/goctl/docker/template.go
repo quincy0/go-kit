@@ -3,7 +3,7 @@ package docker
 import (
 	_ "embed"
 
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const (

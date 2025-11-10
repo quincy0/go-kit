@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/core/discov/internal"
+	"github.com/quincy0/go-kit/core/discov/internal"
 )
 
 const (

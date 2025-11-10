@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/lang"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/lang"
 )
 
 const limit = 10

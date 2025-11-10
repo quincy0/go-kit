@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"runtime"
 
-	"go-kit/tools/goctl/util/env"
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/util/env"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 const goproxy = "GOPROXY=https://goproxy.cn,direct"

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"go-kit/tools/goctl/api/parser/g4/gen/api"
-	"go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/gen/api"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 	"github.com/zeromicro/antlr"
 )
 

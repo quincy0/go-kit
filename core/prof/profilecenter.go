@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/threading"
 	"github.com/olekukonko/tablewriter"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 type (

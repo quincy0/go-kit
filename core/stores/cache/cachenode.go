@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/jsonx"
-	"go-kit/core/logx"
-	"go-kit/core/mathx"
-	"go-kit/core/stat"
-	"go-kit/core/stores/redis"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/jsonx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 const (

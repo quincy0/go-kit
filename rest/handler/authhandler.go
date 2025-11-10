@@ -6,10 +6,9 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/golang-jwt/jwt/v4"
-	"go-kit/core/logx"
-	"go-kit/rest/internal/response"
-	"go-kit/rest/token"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/internal/response"
+	"github.com/quincy0/go-kit/rest/token"
 )
 
 const (

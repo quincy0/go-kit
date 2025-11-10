@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/lang"
-	"go-kit/core/proc"
-	"go-kit/core/syncx"
-	"go-kit/core/threading"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 const idleRound = 10

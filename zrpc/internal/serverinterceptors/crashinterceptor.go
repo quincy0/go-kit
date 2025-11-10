@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime/debug"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

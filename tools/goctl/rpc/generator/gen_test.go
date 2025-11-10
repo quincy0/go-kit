@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"go-kit/core/logx"
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/syncx"
 	"go.mongodb.org/mongo-driver/mongo"
 	mopt "go.mongodb.org/mongo-driver/mongo/options"
 )

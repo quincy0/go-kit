@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/timex"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/timex"
 )
 
 const threshold = 10

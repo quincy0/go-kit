@@ -1,7 +1,7 @@
 package resolver
 
 import (
-	"go-kit/zrpc/resolver/internal"
+	"github.com/quincy0/go-kit/zrpc/resolver/internal"
 )
 
 // Register registers schemes defined zrpc.

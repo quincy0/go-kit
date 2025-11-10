@@ -3,10 +3,10 @@ package generator
 import (
 	"path/filepath"
 
-	"go-kit/tools/goctl/rpc/parser"
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/ctx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/ctx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 type ZRpcContext struct {

@@ -7,12 +7,12 @@ import (
 	"path"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/rest/chain"
-	"go-kit/rest/handler"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal/cors"
-	"go-kit/rest/router"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/chain"
+	"github.com/quincy0/go-kit/rest/handler"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal/cors"
+	"github.com/quincy0/go-kit/rest/router"
 )
 
 type (

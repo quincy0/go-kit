@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 // WithDuration returns a Logger which logs the given duration.

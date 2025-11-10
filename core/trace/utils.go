@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	ztrace "go-kit/internal/trace"
+	ztrace "github.com/quincy0/go-kit/internal/trace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"

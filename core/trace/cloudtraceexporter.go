@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	cloudtrace "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 )
 

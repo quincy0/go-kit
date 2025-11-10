@@ -3,7 +3,7 @@ package {{.PkgName}}
 import (
 	"net/http"
 
-	"go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/httpx"
 	{{.ImportPackages}}
 )
 

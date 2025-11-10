@@ -9,10 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alicebob/miniredis/v2"
 	red "github.com/go-redis/redis/v8"
-	"go-kit/core/logx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
 )
 

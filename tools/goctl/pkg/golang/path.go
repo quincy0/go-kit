@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/util/ctx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/ctx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 func GetParentPackage(dir string) (string, error) {
@@ -19,7 +19,7 @@ func GetParentPackage(dir string) (string, error) {
 		return "", err
 	}
 
-	// fix https://go-kit/issues/1058
+	// fix https://github.com/quincy0/go-kit/issues/1058
 	wd := projectCtx.WorkDir
 	d := projectCtx.Dir
 	same, err := pathx.SameFile(wd, d)

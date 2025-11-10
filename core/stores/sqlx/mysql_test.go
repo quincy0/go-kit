@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/go-sql-driver/mysql"
-	"go-kit/core/breaker"
-	"go-kit/core/logx"
-	"go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/breaker"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/syncx"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 type limitedExecutor struct {

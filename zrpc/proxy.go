@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"go-kit/core/syncx"
-	"go-kit/zrpc/internal"
-	"go-kit/zrpc/internal/auth"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/zrpc/internal"
+	"github.com/quincy0/go-kit/zrpc/internal/auth"
 	"google.golang.org/grpc"
 )
 

@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"sync"
 
-	"go-kit/core/logx"
-	"go-kit/rest/errorx"
-	"go-kit/rest/internal/errcode"
-	"go-kit/rest/internal/header"
-	"go-kit/rest/lang"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/errorx"
+	"github.com/quincy0/go-kit/rest/internal/errcode"
+	"github.com/quincy0/go-kit/rest/internal/header"
+	"github.com/quincy0/go-kit/rest/lang"
 )
 
 var (

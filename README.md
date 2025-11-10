@@ -1,4 +1,4 @@
-# go-kit
+# github.com/quincy0/go-kit
 
 从 go-zero 仓库 fork 而来，在继承 go-zero 众多特性的同时，会在此基础上做一些适配我们自己业务的二次开发。
 
@@ -6,8 +6,8 @@
 
 ```
 go env -w GO111MODULE=on
-go env -w GOPRIVATE=github.com/hubbuy
-git config --global --add url."support@hubbuy.com:hubbuy/".insteadOf "https://github.com/hubbuy/"
+go env -w GOPRIVATE=github.com/quincy0
+git config --global --add url."git@github.com:quincy0/".insteadOf "https://github.com/quincy0/"
 ```
 
 ## 1. Installation
@@ -16,7 +16,7 @@ git config --global --add url."support@hubbuy.com:hubbuy/".insteadOf "https://gi
 
 ```shell
 GO111MODULE=on GOPROXY=https://goproxy.cn/,direct
-go get -u go-kit
+go get -u github.com/quincy0/go-kit
 ```
 
 ## 2. Quick Start
@@ -33,9 +33,9 @@ go get -u go-kit
 
    ```shell
    GOPROXY=https://goproxy.cn/,direct
-   go install go-kit/tools/goctl@latest
+   go install github.com/quincy0/go-kit/tools/goctl@latest
 
-   要特别注意的是，goctl必须从hubbuy/go-kit仓库安装，而不是从go-zero仓库安装。这是因为go-kit里的goctl做了改造
+   要特别注意的是，goctl必须从hubbuy/github.com/quincy0/go-kit仓库安装，而不是从go-zero仓库安装。这是因为github.com/quincy0/go-kit里的goctl做了改造
    其可以适配我们自已的开发与生产环境。 关于api文件的声明参考：[goctl使用说明](./tools/goctl/readme.md)
 
    ```

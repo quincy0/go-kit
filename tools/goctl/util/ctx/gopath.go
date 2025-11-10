@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 // projectFromGoPath is used to find the main module and project file path

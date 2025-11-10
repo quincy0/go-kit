@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/logx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/logx"
 )
 
 func init() {

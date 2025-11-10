@@ -2,7 +2,8 @@ package gogen
 
 import (
 	_ "embed"
-	"go-kit/tools/goctl/api/spec"
+
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
 )
 
 const DOCKERFILE_FILE_NAME = "Dockerfile"

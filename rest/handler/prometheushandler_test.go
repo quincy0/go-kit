@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go-kit/core/prometheus"
+	"github.com/quincy0/go-kit/core/prometheus"
 	"github.com/stretchr/testify/assert"
 )
 

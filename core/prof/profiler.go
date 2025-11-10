@@ -1,6 +1,6 @@
 package prof
 
-import "go-kit/core/utils"
+import "github.com/quincy0/go-kit/core/utils"
 
 type (
 	// A ProfilePoint is a profile time point.

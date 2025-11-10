@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/lang"
-	"go-kit/core/stat"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 )

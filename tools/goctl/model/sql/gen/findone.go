@@ -1,10 +1,10 @@
 package gen
 
 import (
-	"go-kit/tools/goctl/model/sql/template"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/template"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 func genFindOne(table Table, withCache, postgreSql bool) (string, string, error) {

@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"go-kit/core/collection"
-	"go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/mathx"
 )
 
 const (

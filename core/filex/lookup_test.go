@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"go-kit/core/fs"
+	"github.com/quincy0/go-kit/core/fs"
 	"github.com/stretchr/testify/assert"
 )
 

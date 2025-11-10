@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 const (

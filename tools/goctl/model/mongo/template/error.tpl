@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"go-kit/core/stores/mon"
+	"github.com/quincy0/go-kit/core/stores/mon"
 )
 
 var (

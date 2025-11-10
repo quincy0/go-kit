@@ -1,7 +1,7 @@
 package postgres
 
 import (
-	"go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
 	// imports the driver, don't remove this comment, golint requires.
 	_ "github.com/lib/pq"
 )

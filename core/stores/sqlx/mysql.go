@@ -3,8 +3,8 @@ package sqlx
 import (
 	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
 	"github.com/go-sql-driver/mysql"
-	"go-kit/core/logx"
-	"go-kit/core/trace"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/trace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -14,11 +14,11 @@ import (
 
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
-	"go-kit/core/stat"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/mongo"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/redis/redistest"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/mongo"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
 	"github.com/stretchr/testify/assert"
 )
 

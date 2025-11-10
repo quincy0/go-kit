@@ -5,10 +5,10 @@ import (
 	"errors"
 	"log"
 
-	"go-kit/core/errorx"
-	"go-kit/core/hash"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/errorx"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/redis"
 )
 
 // ErrNoRedisNode is an error that indicates no redis node.

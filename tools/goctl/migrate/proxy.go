@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
 )
 
 var (

@@ -3,8 +3,8 @@ package executors
 import (
 	"time"
 
-	"go-kit/core/syncx"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 // A LessExecutor is an executor to limit execution once within given time interval.

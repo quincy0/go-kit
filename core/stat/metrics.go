@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/executors"
-	"go-kit/core/logx"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/executors"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 const (

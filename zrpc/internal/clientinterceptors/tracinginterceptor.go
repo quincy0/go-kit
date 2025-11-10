@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	ztrace "go-kit/core/trace"
+	ztrace "github.com/quincy0/go-kit/core/trace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

@@ -15,14 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alicebob/miniredis/v2"
-	"go-kit/core/fx"
-	"go-kit/core/logx"
-	"go-kit/core/stat"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/redis/redistest"
-	"go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/fx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
 	"github.com/stretchr/testify/assert"
 )
 

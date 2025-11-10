@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/globalsign/mgo"
-	"go-kit/core/executors"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/executors"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 const (

@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/errorx"
-	"go-kit/core/hash"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/redis/redistest"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/errorx"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
+	"github.com/quincy0/go-kit/core/syncx"
 	"github.com/stretchr/testify/assert"
 )
 

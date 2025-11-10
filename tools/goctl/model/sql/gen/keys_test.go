@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"go-kit/tools/goctl/model/sql/parser"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 	"github.com/stretchr/testify/assert"
 )
 

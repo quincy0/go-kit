@@ -6,9 +6,9 @@ import (
 
 	"github.com/globalsign/mgo"
 	"github.com/golang/mock/gomock"
-	"go-kit/core/breaker"
-	"go-kit/core/stringx"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/breaker"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/syncx"
 	"github.com/stretchr/testify/assert"
 )
 

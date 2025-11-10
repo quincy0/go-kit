@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 func TestServiceConf(t *testing.T) {

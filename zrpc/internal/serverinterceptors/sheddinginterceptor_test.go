@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/load"
-	"go-kit/core/stat"
 	"google.golang.org/grpc"
 )
 

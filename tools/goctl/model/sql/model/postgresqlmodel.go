@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strings"
 
-	"go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
 )
 
 var p2m = map[string]string{

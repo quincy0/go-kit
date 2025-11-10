@@ -6,9 +6,9 @@ import (
 	"io"
 	"strings"
 
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 func writeProperty(writer io.Writer, member spec.Member, indent int) error {

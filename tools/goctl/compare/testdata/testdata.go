@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/util/pathx"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 type (

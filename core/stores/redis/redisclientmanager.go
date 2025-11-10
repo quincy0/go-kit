@@ -2,15 +2,16 @@ package redis
 
 import (
 	"crypto/tls"
+	"io"
+
 	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
-	"go-kit/core/trace"
+	"github.com/quincy0/go-kit/core/trace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
-	"io"
 
 	"github.com/go-redis/redis/extra/redisotel"
 	red "github.com/go-redis/redis/v8"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/syncx"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 )
 

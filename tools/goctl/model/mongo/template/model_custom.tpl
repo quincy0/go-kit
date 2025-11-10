@@ -1,9 +1,9 @@
 package model
 
 {{if .Cache}}import (
-    "go-kit/core/stores/cache"
-    "go-kit/core/stores/monc"
-){{else}}import "go-kit/core/stores/mon"{{end}}
+    "github.com/quincy0/go-kit/core/stores/cache"
+    "github.com/quincy0/go-kit/core/stores/monc"
+){{else}}import "github.com/quincy0/go-kit/core/stores/mon"{{end}}
 
 {{if .Easy}}
 const {{.Type}}CollectionName = "{{.snakeType}}"

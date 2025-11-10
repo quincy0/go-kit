@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/contextx"
-	"go-kit/core/lang"
-	"go-kit/core/logx"
-	"go-kit/core/syncx"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/contextx"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/threading"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

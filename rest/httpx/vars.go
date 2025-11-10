@@ -1,6 +1,6 @@
 package httpx
 
-import "go-kit/rest/internal/header"
+import "github.com/quincy0/go-kit/rest/internal/header"
 
 const (
 	// ContentEncoding means Content-Encoding.

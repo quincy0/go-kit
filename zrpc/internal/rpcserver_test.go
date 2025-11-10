@@ -4,9 +4,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/zrpc/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stat"
-	"go-kit/zrpc/internal/mock"
 	"google.golang.org/grpc"
 )
 

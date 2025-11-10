@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/mathx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/lang"
-	"go-kit/core/mathx"
 	"google.golang.org/grpc/resolver"
 )
 

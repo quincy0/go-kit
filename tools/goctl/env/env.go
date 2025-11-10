@@ -3,7 +3,7 @@ package env
 import (
 	"fmt"
 
-	"go-kit/tools/goctl/pkg/env"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/env"
 	"github.com/spf13/cobra"
 )
 

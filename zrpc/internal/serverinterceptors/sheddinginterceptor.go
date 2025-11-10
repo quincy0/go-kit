@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"go-kit/core/load"
-	"go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/stat"
 	"google.golang.org/grpc"
 )
 

@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"text/template"
 
-	"go-kit/tools/goctl/internal/errorx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/internal/errorx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const regularPerm = 0o666

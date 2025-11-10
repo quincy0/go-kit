@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/model/sql/builderx"
-	"go-kit/tools/goctl/model/sql/parser"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/builderx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

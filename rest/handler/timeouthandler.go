@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal"
 )
 
 const (

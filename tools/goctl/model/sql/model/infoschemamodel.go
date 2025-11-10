@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"go-kit/core/stores/sqlx"
-	"go-kit/tools/goctl/model/sql/util"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/util"
 )
 
 const indexPri = "PRIMARY"

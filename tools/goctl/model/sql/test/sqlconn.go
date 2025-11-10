@@ -6,7 +6,7 @@ import (
 	"context"
 	"database/sql"
 
-	"go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
 )
 
 type (

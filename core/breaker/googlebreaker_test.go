@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/collection"
-	"go-kit/core/mathx"
-	"go-kit/core/stat"
 )
 
 const (

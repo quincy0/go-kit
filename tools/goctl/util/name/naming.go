@@ -5,7 +5,7 @@ package name
 import (
 	"strings"
 
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 // NamingStyle the type of string

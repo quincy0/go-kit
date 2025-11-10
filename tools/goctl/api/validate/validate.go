@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"go-kit/tools/goctl/api/parser"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
 	"github.com/spf13/cobra"
 )
 

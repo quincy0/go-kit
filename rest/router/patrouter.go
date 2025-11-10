@@ -7,9 +7,9 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/core/search"
-	"go-kit/rest/httpx"
-	"go-kit/rest/pathvar"
+	"github.com/quincy0/go-kit/core/search"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/pathvar"
 )
 
 const (

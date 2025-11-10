@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/zrpc/resolver/internal"
+	"github.com/quincy0/go-kit/zrpc/resolver/internal"
 )
 
 // BuildDirectTarget returns a string that represents the given endpoints with direct schema.

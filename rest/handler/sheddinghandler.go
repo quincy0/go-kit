@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"sync"
 
-	"go-kit/core/load"
-	"go-kit/core/logx"
-	"go-kit/core/stat"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal/response"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal/response"
 )
 
 const serviceType = "api"

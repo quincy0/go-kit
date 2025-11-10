@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go-kit/core/mapping"
+	"github.com/quincy0/go-kit/core/mapping"
 )
 
 const tagName = "db"

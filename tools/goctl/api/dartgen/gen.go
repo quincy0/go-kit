@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/api/parser"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
 	"github.com/spf13/cobra"
 )
 

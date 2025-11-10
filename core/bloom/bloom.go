@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strconv"
 
-	"go-kit/core/hash"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/stores/redis"
 )
 
 const (

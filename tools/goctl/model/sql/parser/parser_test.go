@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-kit/tools/goctl/model/sql/model"
-	"go-kit/tools/goctl/model/sql/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/model"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
 )
 

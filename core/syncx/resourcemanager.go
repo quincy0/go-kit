@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"go-kit/core/errorx"
+	"github.com/quincy0/go-kit/core/errorx"
 )
 
 // A ResourceManager is a manager that used to manage resources.

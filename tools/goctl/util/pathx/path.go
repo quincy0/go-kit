@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/vars"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 const (

@@ -4,12 +4,12 @@ import (
 	"log"
 	"time"
 
-	"go-kit/core/load"
-	"go-kit/core/logx"
-	"go-kit/core/stat"
-	"go-kit/zrpc/internal"
-	"go-kit/zrpc/internal/auth"
-	"go-kit/zrpc/internal/serverinterceptors"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/zrpc/internal"
+	"github.com/quincy0/go-kit/zrpc/internal/auth"
+	"github.com/quincy0/go-kit/zrpc/internal/serverinterceptors"
 	"google.golang.org/grpc"
 )
 

@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"go-kit/core/collection"
-	"go-kit/core/logx"
-	"go-kit/core/mathx"
-	"go-kit/core/stat"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/syncx"
 	"github.com/stretchr/testify/assert"
 )
 

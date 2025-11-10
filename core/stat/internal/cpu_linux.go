@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/core/iox"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/iox"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 const (

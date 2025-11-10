@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/lang"
-	"go-kit/core/logx"
-	"go-kit/core/stat"
-	"go-kit/core/syncx"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/timex"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 )

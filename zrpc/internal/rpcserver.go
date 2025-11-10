@@ -3,9 +3,9 @@ package internal
 import (
 	"net"
 
-	"go-kit/core/proc"
-	"go-kit/core/stat"
-	"go-kit/zrpc/internal/serverinterceptors"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/zrpc/internal/serverinterceptors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 )

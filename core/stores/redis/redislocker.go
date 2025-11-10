@@ -2,9 +2,10 @@ package redis
 
 import (
 	"context"
-	"go-kit/core/logx"
 	"math/rand"
 	"time"
+
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 type Locker interface {

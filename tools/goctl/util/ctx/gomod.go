@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/rpc/execx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const goModuleWithoutGoFiles = "command-line-arguments"

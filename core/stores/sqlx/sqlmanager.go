@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 const (

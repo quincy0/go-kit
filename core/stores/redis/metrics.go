@@ -1,6 +1,6 @@
 package redis
 
-import "go-kit/core/metric"
+import "github.com/quincy0/go-kit/core/metric"
 
 const namespace = "redis_client"
 

@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/api/parser"
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/rpc/execx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"go-kit/tools/goctl/rpc/cli"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/cli"
 	"github.com/spf13/cobra"
 )
 
@@ -43,14 +43,14 @@ func init() {
 	Cmd.Flags().StringVar(&cli.VarStringRemote, "remote", "", "The remote git repo"+
 		" of the template, --home and --remote cannot be set at the same time, if they are, --remote"+
 		" has higher priority\n\tThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	Cmd.Flags().StringVar(&cli.VarStringBranch, "branch", "", "The branch of the "+
 		"remote repo, it does work with --remote")
 
 	newCmd.Flags().StringSliceVar(&cli.VarStringSliceGoOpt, "go_opt", nil, "")
 	newCmd.Flags().StringSliceVar(&cli.VarStringSliceGoGRPCOpt, "go-grpc_opt", nil, "")
 	newCmd.Flags().StringVar(&cli.VarStringStyle, "style", "gozero", "The file "+
-		"naming format, see [https://go-kit/tree/master/tools/goctl/config/readme.md]")
+		"naming format, see [https://github.com/quincy0/go-kit/tree/master/tools/goctl/config/readme.md]")
 	newCmd.Flags().BoolVar(&cli.VarBoolIdea, "idea", false, "Whether the command "+
 		"execution environment is from idea plugin.")
 	newCmd.Flags().StringVar(&cli.VarStringHome, "home", "", "The goctl home path "+
@@ -59,7 +59,7 @@ func init() {
 	newCmd.Flags().StringVar(&cli.VarStringRemote, "remote", "", "The remote git "+
 		"repo of the template, --home and --remote cannot be set at the same time, if they are, "+
 		"--remote has higher priority\n\tThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	newCmd.Flags().StringVar(&cli.VarStringBranch, "branch", "",
 		"The branch of the remote repo, it does work with --remote")
 	newCmd.Flags().BoolVarP(&cli.VarBoolVerbose, "verbose", "v", false, "Enable log output")
@@ -76,14 +76,14 @@ func init() {
 	protocCmd.Flags().StringSliceVarP(&cli.VarStringSliceProtoPath, "proto_path", "I", nil, "")
 	protocCmd.Flags().StringVar(&cli.VarStringZRPCOut, "zrpc_out", "", "The zrpc output directory")
 	protocCmd.Flags().StringVar(&cli.VarStringStyle, "style", "gozero", "The file "+
-		"naming format, see [https://go-kit/tree/master/tools/goctl/config/readme.md]")
+		"naming format, see [https://github.com/quincy0/go-kit/tree/master/tools/goctl/config/readme.md]")
 	protocCmd.Flags().StringVar(&cli.VarStringHome, "home", "", "The goctl home "+
 		"path of the template, --home and --remote cannot be set at the same time, if they are, "+
 		"--remote has higher priority")
 	protocCmd.Flags().StringVar(&cli.VarStringRemote, "remote", "", "The remote "+
 		"git repo of the template, --home and --remote cannot be set at the same time, if they are, "+
 		"--remote has higher priority\n\tThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	protocCmd.Flags().StringVar(&cli.VarStringBranch, "branch", "",
 		"The branch of the remote repo, it does work with --remote")
 	protocCmd.Flags().BoolVarP(&cli.VarBoolVerbose, "verbose", "v", false, "Enable log output")
@@ -101,7 +101,7 @@ func init() {
 	templateCmd.Flags().StringVar(&cli.VarStringRemote, "remote", "", "The remote "+
 		"git repo of the template, --home and --remote cannot be set at the same time, if they are, "+
 		"--remote has higher priority\n\tThe git repo directory must be consistent with the "+
-		"https://go-kit-template directory structure")
+		"https://github.com/quincy0/go-kit-template directory structure")
 	templateCmd.Flags().StringVar(&cli.VarStringBranch, "branch", "", "The branch"+
 		" of the remote repo, it does work with --remote")
 

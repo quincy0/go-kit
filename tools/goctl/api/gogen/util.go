@@ -7,11 +7,11 @@ import (
 	"strings"
 	"text/template"
 
-	"go-kit/core/collection"
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/api/util"
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 type fileGenConfig struct {

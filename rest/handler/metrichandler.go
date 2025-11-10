@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"go-kit/core/stat"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 // MetricHandler returns a middleware that stat the metrics.

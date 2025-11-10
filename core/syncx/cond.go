@@ -3,8 +3,8 @@ package syncx
 import (
 	"time"
 
-	"go-kit/core/lang"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 // A Cond is used to wait for conditions.

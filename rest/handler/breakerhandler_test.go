@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go-kit/core/logx"
-	"go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
 )
 

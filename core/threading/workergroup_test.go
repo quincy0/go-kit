@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/lang"
 	"github.com/stretchr/testify/assert"
 )
 

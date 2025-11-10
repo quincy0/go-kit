@@ -3,7 +3,7 @@ package internal
 import (
 	"time"
 
-	"go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stat"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/keepalive"

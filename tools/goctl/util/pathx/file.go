@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/internal/version"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/internal/version"
 )
 
 // NL defines a new line.

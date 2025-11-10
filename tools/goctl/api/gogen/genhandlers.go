@@ -6,12 +6,12 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/format"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const defaultLogicPackage = "logic"

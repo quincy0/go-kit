@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-kit/core/lang"
-	"go-kit/core/threading"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 const drainWorkers = 8

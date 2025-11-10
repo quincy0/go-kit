@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"path"
 
-	"go-kit/core/conf"
-	"go-kit/core/hash"
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/update/config"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/conf"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/update/config"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/rest/internal"
 )
 
 // RecoverHandler returns a middleware that recovers if panic happens.

@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/api/gogen"
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/api/gogen"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/api/util"
 )
 
 //go:embed markdown.tpl

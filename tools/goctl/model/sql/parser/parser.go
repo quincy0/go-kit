@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"go-kit/core/collection"
-	"go-kit/tools/goctl/model/sql/converter"
-	"go-kit/tools/goctl/model/sql/model"
-	"go-kit/tools/goctl/model/sql/util"
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/core/collection"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/converter"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/model"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 	"github.com/zeromicro/ddl-parser/parser"
 )
 

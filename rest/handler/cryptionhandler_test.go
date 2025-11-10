@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/codec"
 	"github.com/stretchr/testify/assert"
 )
 

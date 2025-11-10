@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/ctx"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/ctx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stringx"
 )
 
 const duration = time.Millisecond * 50

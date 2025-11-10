@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-kit/core/mathx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/mathx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 var replacer = stringx.NewReplacer(map[string]string{

@@ -3,9 +3,9 @@ package service
 import (
 	"log"
 
-	"go-kit/core/proc"
-	"go-kit/core/syncx"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/proc"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 type (

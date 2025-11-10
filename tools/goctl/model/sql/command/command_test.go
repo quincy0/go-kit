@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/model/sql/gen"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/gen"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
 )
 

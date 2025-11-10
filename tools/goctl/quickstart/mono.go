@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/api/gogen"
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/api/gogen"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 var (

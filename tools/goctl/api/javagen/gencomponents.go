@@ -11,11 +11,11 @@ import (
 	"strings"
 	"text/template"
 
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/api/spec"
-	apiutil "go-kit/tools/goctl/api/util"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	apiutil "github.com/quincy0/go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 const (

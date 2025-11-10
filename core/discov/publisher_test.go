@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
+	"github.com/quincy0/go-kit/core/discov/internal"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov/internal"
-	"go-kit/core/lang"
-	"go-kit/core/logx"
-	"go-kit/core/stringx"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

@@ -1,6 +1,6 @@
 package fx
 
-import "go-kit/core/errorx"
+import "github.com/quincy0/go-kit/core/errorx"
 
 const defaultRetryTimes = 3
 

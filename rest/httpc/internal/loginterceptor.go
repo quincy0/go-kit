@@ -3,8 +3,8 @@ package internal
 import (
 	"net/http"
 
-	"go-kit/core/logx"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/timex"
 	"go.opentelemetry.io/otel/propagation"
 )
 

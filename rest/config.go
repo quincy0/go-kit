@@ -3,7 +3,7 @@ package rest
 import (
 	"time"
 
-	"go-kit/core/service"
+	"github.com/quincy0/go-kit/core/service"
 )
 
 type (

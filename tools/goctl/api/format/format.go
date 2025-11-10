@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/core/errorx"
-	"go-kit/tools/goctl/api/parser"
-	"go-kit/tools/goctl/api/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/errorx"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
+	"github.com/quincy0/go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

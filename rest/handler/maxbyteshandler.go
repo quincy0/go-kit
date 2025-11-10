@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/rest/internal"
 )
 
 // MaxBytesHandler returns a middleware that limit reading of http request body.

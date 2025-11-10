@@ -3,9 +3,9 @@ package generator
 import (
 	"log"
 
-	conf "go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/env"
-	"go-kit/tools/goctl/util/console"
+	conf "github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/env"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 )
 
 // Generator defines the environment needs of rpc service generation

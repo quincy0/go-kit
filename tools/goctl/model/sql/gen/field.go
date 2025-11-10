@@ -3,10 +3,10 @@ package gen
 import (
 	"strings"
 
-	"go-kit/tools/goctl/model/sql/parser"
-	"go-kit/tools/goctl/model/sql/template"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/parser"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/template"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 func genFields(table Table, fields []*parser.Field) (string, error) {

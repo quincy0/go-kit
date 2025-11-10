@@ -3,7 +3,7 @@ package bloom
 import (
 	"testing"
 
-	"go-kit/core/stores/redis/redistest"
+	"github.com/quincy0/go-kit/core/stores/redis/redistest"
 	"github.com/stretchr/testify/assert"
 )
 

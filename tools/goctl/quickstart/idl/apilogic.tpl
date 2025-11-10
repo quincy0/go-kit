@@ -3,7 +3,7 @@ package logic
 import (
 	"context"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 
 	"{{.svcPkg}}"
 	"{{.typesPkg}}"{{if .callRPC}}

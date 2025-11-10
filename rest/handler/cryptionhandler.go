@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"go-kit/core/codec"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 const maxBytes = 1 << 20 // 1 MiB

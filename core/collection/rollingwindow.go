@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 type (

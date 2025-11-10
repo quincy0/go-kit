@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-kit/rest/internal/header"
-	"go-kit/rest/pathvar"
+	"github.com/quincy0/go-kit/rest/internal/header"
+	"github.com/quincy0/go-kit/rest/pathvar"
 	"github.com/stretchr/testify/assert"
 )
 

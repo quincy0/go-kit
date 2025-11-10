@@ -2,9 +2,9 @@ package mongoc
 
 import (
 	"github.com/globalsign/mgo"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/mongo"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/mongo"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 var (

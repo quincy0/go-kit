@@ -3,11 +3,11 @@ package service
 import (
 	"log"
 
-	"go-kit/core/load"
-	"go-kit/core/logx"
-	"go-kit/core/prometheus"
-	"go-kit/core/stat"
-	"go-kit/core/trace"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/prometheus"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/trace"
 )
 
 const (

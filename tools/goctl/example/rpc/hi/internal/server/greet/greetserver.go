@@ -6,9 +6,8 @@ package server
 import (
 	"context"
 
-	"go-kit/tools/goctl/example/rpc/hi/internal/logic/greet"
-	"go-kit/tools/goctl/example/rpc/hi/internal/svc"
-	"go-kit/tools/goctl/example/rpc/hi/pb/hi"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/svc"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/pb/hi"
 )
 
 type GreetServer struct {

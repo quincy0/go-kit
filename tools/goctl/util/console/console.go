@@ -5,8 +5,8 @@ import (
 	"os"
 	"runtime"
 
-	"go-kit/tools/goctl/vars"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 type (

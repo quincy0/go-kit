@@ -3,7 +3,7 @@ package mapping
 import (
 	"io"
 
-	"go-kit/core/jsonx"
+	"github.com/quincy0/go-kit/core/jsonx"
 )
 
 const jsonTagKey = "json"

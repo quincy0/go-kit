@@ -5,7 +5,7 @@ import (
 	"strings"
 	"text/template"
 
-	"go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
 )
 
 const apiTemplate = `import 'api.dart';

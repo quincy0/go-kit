@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 // ErrPaddingSize indicates bad padding size.

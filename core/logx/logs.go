@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/sysx"
+	"github.com/quincy0/go-kit/core/sysx"
 )
 
 const callerDepth = 5

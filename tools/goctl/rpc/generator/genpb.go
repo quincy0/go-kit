@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
 )
 
 // GenPb generates the pb.go file, which is a layer of packaging for protoc to generate gprc,

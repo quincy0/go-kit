@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"time"
 
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stores/sqlx"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 // see doc/sql-cache.md

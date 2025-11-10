@@ -8,14 +8,14 @@ import (
 	"sort"
 	"time"
 
-	"go-kit/core/codec"
-	"go-kit/core/load"
-	"go-kit/core/stat"
-	"go-kit/rest/chain"
-	"go-kit/rest/handler"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal"
-	"go-kit/rest/internal/response"
+	"github.com/quincy0/go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/rest/chain"
+	"github.com/quincy0/go-kit/rest/handler"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal"
+	"github.com/quincy0/go-kit/rest/internal/response"
 )
 
 // use 1000m to represent 100%

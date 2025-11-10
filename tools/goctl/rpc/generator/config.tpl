@@ -1,6 +1,6 @@
 package config
 
-import "go-kit/zrpc"
+import "github.com/quincy0/go-kit/zrpc"
 
 type Config struct {
 	zrpc.RpcServerConf

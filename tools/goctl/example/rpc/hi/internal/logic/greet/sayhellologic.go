@@ -3,10 +3,10 @@ package greetlogic
 import (
 	"context"
 
-	"go-kit/tools/goctl/example/rpc/hi/internal/svc"
-	"go-kit/tools/goctl/example/rpc/hi/pb/hi"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/internal/svc"
+	"github.com/quincy0/go-kit/tools/goctl/example/rpc/hi/pb/hi"
 
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 type SayHelloLogic struct {

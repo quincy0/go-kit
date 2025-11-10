@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"go-kit/core/codec"
-	"go-kit/core/logx"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal/security"
+	"github.com/quincy0/go-kit/core/codec"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal/security"
 )
 
 const contentSecurity = "X-Content-Security"

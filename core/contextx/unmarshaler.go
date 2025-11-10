@@ -3,7 +3,7 @@ package contextx
 import (
 	"context"
 
-	"go-kit/core/mapping"
+	"github.com/quincy0/go-kit/core/mapping"
 )
 
 const contextTagKey = "ctx"

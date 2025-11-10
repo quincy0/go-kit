@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
 )
 
 const (

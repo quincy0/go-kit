@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/threading"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"go-kit/tools/goctl/util/env"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/env"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 func CloneIntoGitHome(url, branch string) (dir string, err error) {

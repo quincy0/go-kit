@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-kit/core/logx"
-	"go-kit/core/mapping"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/mapping"
 )
 
 var errUnbalancedEscape = errors.New("no char after escape char")

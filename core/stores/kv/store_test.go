@@ -4,11 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alicebob/miniredis/v2"
-	"go-kit/core/hash"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/redis"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stringx"
 	"github.com/stretchr/testify/assert"
 )
 

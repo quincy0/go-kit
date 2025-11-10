@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-kit/core/breaker"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/breaker"
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 // spanName is used to identify the span name for the SQL execution.

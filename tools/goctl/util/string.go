@@ -3,7 +3,7 @@ package util
 import (
 	"strings"
 
-	"go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 )
 
 var goKeyword = map[string]string{

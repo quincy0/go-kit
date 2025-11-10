@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"go-kit/tools/goctl/compare/testdata"
-	"go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/compare/testdata"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
 	"github.com/spf13/cobra"
 )
 

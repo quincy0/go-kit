@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go-kit/core/load"
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/cmd"
+	"github.com/quincy0/go-kit/core/load"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/cmd"
 )
 
 func main() {

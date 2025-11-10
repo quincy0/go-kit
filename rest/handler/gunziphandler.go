@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/httpx"
 )
 
 const gzipEncoding = "gzip"

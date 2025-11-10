@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"go-kit/tools/goctl/rpc/execx"
+	"github.com/quincy0/go-kit/tools/goctl/rpc/execx"
 )
 
 // IsGoMod is used to determine whether workDir is a go module project through command `go list -json -m`

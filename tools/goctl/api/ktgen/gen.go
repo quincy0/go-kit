@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"go-kit/tools/goctl/api/spec"
 	"github.com/iancoleman/strcase"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
 )
 
 var (

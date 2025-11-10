@@ -4,12 +4,12 @@ import (
 	"errors"
 	"path/filepath"
 
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/model/mongo/template"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/format"
-	"go-kit/tools/goctl/util/pathx"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/model/mongo/template"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 // Context defines the model generation data what they needs

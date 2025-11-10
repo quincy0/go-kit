@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/core/executors"
-	"go-kit/core/logx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/executors"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 const (

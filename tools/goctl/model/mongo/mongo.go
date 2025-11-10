@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/model/mongo/generate"
-	file "go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/model/mongo/generate"
+	file "github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

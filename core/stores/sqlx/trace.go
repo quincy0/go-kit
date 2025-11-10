@@ -3,7 +3,8 @@ package sqlx
 import (
 	"context"
 	"database/sql"
-	"go-kit/core/trace"
+
+	"github.com/quincy0/go-kit/core/trace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"

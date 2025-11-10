@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go-kit/rest/internal/response"
+	"github.com/quincy0/go-kit/rest/internal/response"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"go-kit/core/mapping"
-	"go-kit/rest/internal/encoding"
-	"go-kit/rest/internal/header"
+	"github.com/quincy0/go-kit/core/mapping"
+	"github.com/quincy0/go-kit/rest/internal/encoding"
+	"github.com/quincy0/go-kit/rest/internal/header"
 )
 
 // Parse parses the response.

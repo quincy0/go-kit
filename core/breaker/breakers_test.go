@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/quincy0/go-kit/core/stat"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/stat"
 )
 
 func init() {

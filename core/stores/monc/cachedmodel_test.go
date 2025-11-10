@@ -6,10 +6,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/alicebob/miniredis/v2"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/mon"
-	"go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/mon"
+	"github.com/quincy0/go-kit/core/stores/redis"
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/integration/mtest"

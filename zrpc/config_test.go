@@ -3,10 +3,10 @@ package zrpc
 import (
 	"testing"
 
+	"github.com/quincy0/go-kit/core/discov"
+	"github.com/quincy0/go-kit/core/service"
+	"github.com/quincy0/go-kit/core/stores/redis"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov"
-	"go-kit/core/service"
-	"go-kit/core/stores/redis"
 )
 
 func TestRpcClientConf(t *testing.T) {

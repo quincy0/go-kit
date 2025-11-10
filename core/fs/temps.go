@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/hash"
 )
 
 // TempFileWithText creates the temporary file with the given content,

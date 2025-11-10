@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"go-kit/core/color"
+	"github.com/quincy0/go-kit/core/color"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package mon
 import (
 	"context"
 
-	"go-kit/core/trace"
+	"github.com/quincy0/go-kit/core/trace"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

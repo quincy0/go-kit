@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-kit/zrpc/resolver/internal/targets"
+	"github.com/quincy0/go-kit/zrpc/resolver/internal/targets"
 	"google.golang.org/grpc/resolver"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 func TestRedisLock(t *testing.T) {

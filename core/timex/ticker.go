@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/lang"
 )
 
 // errTimeout indicates a timeout.

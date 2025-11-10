@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"go-kit/zrpc/internal"
-	"go-kit/zrpc/internal/auth"
-	"go-kit/zrpc/internal/clientinterceptors"
+	"github.com/quincy0/go-kit/zrpc/internal"
+	"github.com/quincy0/go-kit/zrpc/internal/auth"
+	"github.com/quincy0/go-kit/zrpc/internal/clientinterceptors"
 	"google.golang.org/grpc"
 )
 

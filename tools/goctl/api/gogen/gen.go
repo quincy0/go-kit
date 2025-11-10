@@ -11,15 +11,15 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/logx"
-	apiformat "go-kit/tools/goctl/api/format"
-	"go-kit/tools/goctl/api/parser"
-	apiutil "go-kit/tools/goctl/api/util"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/pkg/golang"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/pathx"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/core/logx"
+	apiformat "github.com/quincy0/go-kit/tools/goctl/api/format"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser"
+	apiutil "github.com/quincy0/go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/pkg/golang"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
 )
 

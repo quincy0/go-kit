@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"go-kit/core/iox"
-	"go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/iox"
+	"github.com/quincy0/go-kit/core/lang"
 	"golang.org/x/sys/unix"
 )
 

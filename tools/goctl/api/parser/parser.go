@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"unicode"
 
-	"go-kit/tools/goctl/api/parser/g4/ast"
-	"go-kit/tools/goctl/api/parser/g4/gen/api"
-	"go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/ast"
+	"github.com/quincy0/go-kit/tools/goctl/api/parser/g4/gen/api"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
 )
 
 type parser struct {

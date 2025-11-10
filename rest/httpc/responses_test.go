@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go-kit/rest/internal/header"
+	"github.com/quincy0/go-kit/rest/internal/header"
 	"github.com/stretchr/testify/assert"
 )
 

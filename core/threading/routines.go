@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"go-kit/core/rescue"
+	"github.com/quincy0/go-kit/core/rescue"
 )
 
 // GoSafe runs the given fn using another goroutine, recovers if fn panics.

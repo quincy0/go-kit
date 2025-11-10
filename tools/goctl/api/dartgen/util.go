@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/api/util"
 )
 
 func lowCamelCase(s string) string {

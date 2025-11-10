@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"go-kit/tools/goctl/plugin"
+	"github.com/quincy0/go-kit/tools/goctl/plugin"
 )
 
 func main() {

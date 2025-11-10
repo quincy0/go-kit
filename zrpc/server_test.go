@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/quincy0/go-kit/core/discov"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/service"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/zrpc/internal"
+	"github.com/quincy0/go-kit/zrpc/internal/serverinterceptors"
 	"github.com/stretchr/testify/assert"
-	"go-kit/core/discov"
-	"go-kit/core/logx"
-	"go-kit/core/service"
-	"go-kit/core/stat"
-	"go-kit/core/stores/redis"
-	"go-kit/zrpc/internal"
-	"go-kit/zrpc/internal/serverinterceptors"
 	"google.golang.org/grpc"
 )
 

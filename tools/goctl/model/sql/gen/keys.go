@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"go-kit/tools/goctl/model/sql/parser"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/model/sql/parser"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/stringx"
 )
 
 // Key describes cache key

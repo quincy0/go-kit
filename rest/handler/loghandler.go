@@ -15,14 +15,14 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/core/color"
-	"go-kit/core/iox"
-	"go-kit/core/logx"
-	"go-kit/core/syncx"
-	"go-kit/core/timex"
-	"go-kit/core/utils"
-	"go-kit/rest/httpx"
-	"go-kit/rest/internal"
+	"github.com/quincy0/go-kit/core/color"
+	"github.com/quincy0/go-kit/core/iox"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/utils"
+	"github.com/quincy0/go-kit/rest/httpx"
+	"github.com/quincy0/go-kit/rest/internal"
 )
 
 const (

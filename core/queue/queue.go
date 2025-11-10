@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-kit/core/logx"
-	"go-kit/core/rescue"
-	"go-kit/core/stat"
-	"go-kit/core/threading"
-	"go-kit/core/timex"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/rescue"
+	"github.com/quincy0/go-kit/core/stat"
+	"github.com/quincy0/go-kit/core/threading"
+	"github.com/quincy0/go-kit/core/timex"
 )
 
 const queueName = "queue"

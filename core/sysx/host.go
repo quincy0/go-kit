@@ -3,7 +3,7 @@ package sysx
 import (
 	"os"
 
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 
 var hostname string

@@ -8,11 +8,11 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/tools/goctl/api/spec"
-	apiutil "go-kit/tools/goctl/api/util"
-	"go-kit/tools/goctl/config"
-	"go-kit/tools/goctl/util"
-	"go-kit/tools/goctl/util/format"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	apiutil "github.com/quincy0/go-kit/tools/goctl/api/util"
+	"github.com/quincy0/go-kit/tools/goctl/config"
+	"github.com/quincy0/go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/tools/goctl/util/format"
 )
 
 const typesFile = "types"

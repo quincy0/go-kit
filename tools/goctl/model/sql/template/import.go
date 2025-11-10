@@ -9,11 +9,11 @@ const (
 	"strings"
 	{{if .time}}"time"{{end}}
 
-	"go-kit/core/stores/builder"
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/sqlc"
-	"go-kit/core/stores/sqlx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stores/builder"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/sqlc"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 `
 	// ImportsNoCache defines a import template for model in normal case
@@ -24,10 +24,10 @@ const (
 	"strings"
 	{{if .time}}"time"{{end}}
 
-	"go-kit/core/stores/builder"
-	"go-kit/core/stores/sqlc"
-	"go-kit/core/stores/sqlx"
-	"go-kit/core/stringx"
+	"github.com/quincy0/go-kit/core/stores/builder"
+	"github.com/quincy0/go-kit/core/stores/sqlc"
+	"github.com/quincy0/go-kit/core/stores/sqlx"
+	"github.com/quincy0/go-kit/core/stringx"
 )
 `
 )

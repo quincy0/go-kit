@@ -3,7 +3,7 @@ package load
 import (
 	"io"
 
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 // A ShedderGroup is a manager to manage key based shedders.

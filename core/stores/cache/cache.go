@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
-	"go-kit/core/errorx"
-	"go-kit/core/hash"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/errorx"
+	"github.com/quincy0/go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/syncx"
 )
 
 type (

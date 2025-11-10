@@ -2,7 +2,7 @@ package svc
 
 import (
 	"{{.configPkg}}"{{if .callRPC}}
-	"go-kit/zrpc"
+	"github.com/quincy0/go-kit/zrpc"
 	"{{.rpcClientPkg}}"{{end}}
 )
 

@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"go-kit/tools/goctl/util/console"
-	"go-kit/tools/goctl/util/ctx"
-	"go-kit/tools/goctl/vars"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/util/console"
+	"github.com/quincy0/go-kit/tools/goctl/util/ctx"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 	"github.com/spf13/cobra"
 )
 

@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/core/logx"
-	"go-kit/tools/goctl/api/spec"
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/core/logx"
+	"github.com/quincy0/go-kit/tools/goctl/api/spec"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 // MaybeCreateFile creates file if not exists

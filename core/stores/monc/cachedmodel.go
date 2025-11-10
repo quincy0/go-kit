@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"go-kit/core/stores/cache"
-	"go-kit/core/stores/mon"
-	"go-kit/core/stores/redis"
-	"go-kit/core/syncx"
+	"github.com/quincy0/go-kit/core/stores/cache"
+	"github.com/quincy0/go-kit/core/stores/mon"
+	"github.com/quincy0/go-kit/core/stores/redis"
+	"github.com/quincy0/go-kit/core/syncx"
 	"go.mongodb.org/mongo-driver/mongo"
 	mopt "go.mongodb.org/mongo-driver/mongo/options"
 )

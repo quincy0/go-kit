@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go-kit/tools/goctl/util/pathx"
+	"github.com/quincy0/go-kit/tools/goctl/util/pathx"
 )
 
 // GoBin returns a path of GOBIN.

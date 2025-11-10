@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/fullstorydev/grpcurl"
-	"go-kit/core/hash"
+	"github.com/quincy0/go-kit/core/hash"
 	"github.com/stretchr/testify/assert"
 )
 

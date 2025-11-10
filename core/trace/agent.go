@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"sync"
 
-	"go-kit/core/lang"
-	"go-kit/core/logx"
+	"github.com/quincy0/go-kit/core/lang"
+	"github.com/quincy0/go-kit/core/logx"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

@@ -5,18 +5,19 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
-	"go-kit/core/trace"
-	"go-kit/rest"
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/propagation"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"sync"
 
-	"go-kit/core/logx"
+	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
+	"github.com/quincy0/go-kit/core/trace"
+	"github.com/quincy0/go-kit/rest"
+	"go.opentelemetry.io/otel"
+	"go.opentelemetry.io/otel/propagation"
+
+	"github.com/quincy0/go-kit/core/logx"
 )
 
 type App interface {

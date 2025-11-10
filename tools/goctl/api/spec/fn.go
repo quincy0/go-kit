@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"go-kit/core/stringx"
-	"go-kit/tools/goctl/util"
+	"github.com/quincy0/go-kit/core/stringx"
+	"github.com/quincy0/go-kit/tools/goctl/util"
 )
 
 const (

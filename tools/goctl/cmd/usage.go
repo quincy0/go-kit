@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"go-kit/tools/goctl/vars"
 	"github.com/logrusorgru/aurora"
+	"github.com/quincy0/go-kit/tools/goctl/vars"
 )
 
 var colorRender = []func(v interface{}) string{

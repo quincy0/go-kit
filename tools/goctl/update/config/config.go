@@ -1,6 +1,6 @@
 package config
 
-import "go-kit/core/logx"
+import "github.com/quincy0/go-kit/core/logx"
 
 // Config defines a service configure for goctl update
 type Config struct {

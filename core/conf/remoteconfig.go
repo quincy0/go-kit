@@ -11,6 +11,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/go-redis/redis/v8"
 	"github.com/quincy0/go-kit/core/logx"
 	"github.com/quincy0/go-kit/rest/httpc"
 )

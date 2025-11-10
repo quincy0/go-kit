@@ -6,6 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/golang-jwt/jwt/v4"
 	"github.com/golang-jwt/jwt/v4/request"
 	"github.com/quincy0/go-kit/core/timex"
 )

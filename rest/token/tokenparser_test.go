@@ -6,6 +6,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/golang-jwt/jwt/v4"
 	"github.com/quincy0/go-kit/core/timex"
 	"github.com/stretchr/testify/assert"
 )

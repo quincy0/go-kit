@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package stream;
+
+option go_package = "go-kit";
+
+message placeholder {}
+
+service greet {
+  rpc hello (placeholder) returns (placeholder);
+}

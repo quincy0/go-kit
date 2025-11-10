@@ -9,7 +9,7 @@ require (
 	github.com/google/go-github/v47 v47.1.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/quincy0/go-kit v0.0.2
+	github.com/quincy0/go-kit v0.0.3
 	github.com/spf13/cobra v1.4.0
 	github.com/stretchr/testify v1.11.1
 	github.com/withfig/autocomplete-tools/integrations/cobra v0.0.0-20220705165518-2761d7f4b8bc

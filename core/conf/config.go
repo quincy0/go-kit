@@ -112,7 +112,7 @@ func LoadFromConfigService(clusterName string, serviceName string, v interface{}
 
 	url := fmt.Sprintf("http://dev.internal.xconf/config/%s/dev/%s", clusterName, serviceName)
 	if env == "production" {
-		url = fmt.Sprintf("http://prod.internal.xconf/config/%s/production/%s", clusterName, serviceName)
+		url = fmt.Sprintf("https://xconf-727446398583.southamerica-east1.run.app/config/%s/production/%s", clusterName, serviceName)
 	}
 	if projectId == "gexhub" {
 		url = fmt.Sprintf("https://xconf-223026273590.northamerica-northeast1.run.app/config/%s/%s/%s", clusterName, env, serviceName)
